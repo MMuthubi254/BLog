@@ -1,0 +1,78 @@
+body {
+    max-width: 1000px;
+    background-color: rgb(158, 252, 44);
+    float: none;
+    margin: auto;
+}
+
+ .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+   
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mohave', sans-serif;
+
+ }
+
+ p {
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+
+ }
+ a{
+    font-family: 'Mohave', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+ }
+ .logo img {
+border: 2px solid ;
+border-radius: 15px;
+margin: 10px 0 0 10px;
+height: 100px;
+width: 100px;
+ }
+
+ .logo img :hover{
+     box-shadow: 0 10px 10px 0rgb(100, 87, 87)
+ }
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+nav  a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;   
+
+}
+
+nav a :hover{
+    color: burlywood;
+}
+
+footer {
+    float: left;
+    width: 70%;
+    display: block;
+    min-height: 300px;
+}
+
+main {
+    float: left;
+    width: 70%;
+    display: block ;
+    min-height: 300px;
+}
+ aside {
+     float: right;
+     width:  28%;
+     display: block;
+     min-height:  300px;
+ }
